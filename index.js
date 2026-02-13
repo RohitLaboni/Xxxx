@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = 'তোমার_বট_টোকেন_এখানে_দেবে';
+const token = '8514655196:AAG21XJHIMXq5jt2_p5RZbCbkIs4_MXqO4Q';
 const bot = new TelegramBot(token, {polling: true});
 
 bot.onText(/\/start/, (msg) => {
@@ -8,5 +8,5 @@ bot.onText(/\/start/, (msg) => {
 });
 
 bot.onText(/\/go/, (msg) => {
-    bot.sendMessage(msg.chat.id, 'কেমন আছো?');
+    bot.sendMessage(msg.chat.id, 'Bal🌚🖕?');
 });
